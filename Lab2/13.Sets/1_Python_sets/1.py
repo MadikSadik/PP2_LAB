@@ -1,0 +1,18 @@
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
+
+# Duplicate values will be ignored:
+thisset = {"apple", "banana", "cherry", "apple"}
+print(thisset)
+
+
+# The values True and 1 are considered the same value in sets, 
+# and are treated as duplicates:
+
+#True and 1 is considered the same value:
+thisset = {"apple", "banana", "cherry", True, 1, 2}
+print(thisset)
+
+# False and 0 is considered the same value:
+thisset = {"apple", "banana", "cherry", False, True, 0}
+print(thisset)
